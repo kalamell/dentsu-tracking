@@ -69,7 +69,7 @@
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
             body: urlencoded.toString(),
-            mode: 'cors'  // This enables CORS
+            //mode: 'cors'  // This enables CORS
         })
         .then(function(response) {
             if (response.ok) {
